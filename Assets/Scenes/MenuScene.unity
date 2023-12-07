@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bbf68189b91a2f43bfc5005b0604656, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fpsGame: {fileID: 1318862807}
+  roamGame: {fileID: 1318862807}
   trainingGame: {fileID: 2117426137}
   examGame: {fileID: 1592665993}
 --- !u!1 &114141325

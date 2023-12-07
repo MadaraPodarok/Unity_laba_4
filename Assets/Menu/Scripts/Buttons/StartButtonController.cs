@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class StartButtonController : MonoBehaviour
 {
-    [SerializeField] private Button fpsGame;
+    [SerializeField] private Button roamGame;
     [SerializeField] private Button trainingGame;
     [SerializeField] private Button examGame;
     private bool isOpen = false;
@@ -25,14 +25,14 @@ public class StartButtonController : MonoBehaviour
 
     private void OpenListButton()
     {
-        fpsGame.animator.Play("FPSGameOpen");
+        roamGame.animator.Play("RoamGameOpen");
         trainingGame.animator.Play("TrainingGameOpen");
         examGame.animator.Play("ExamGameOpen");
     }
 
     private void CloseListButton()
     {
-        fpsGame.animator.Play("FPSGameClose");
+        roamGame.animator.Play("RoamGameClose");
         trainingGame.animator.Play("TrainingGameClose");
         examGame.animator.Play("ExamGameClose");
     }
